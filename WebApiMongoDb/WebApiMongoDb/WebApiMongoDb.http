@@ -1,0 +1,13 @@
+﻿@WebApiMongoDb_HostAddress = https://localhost:7133
+
+POST {{WebApiMongoDb_HostAddress}}/api/produtos
+Content-Type: application/json
+
+{
+  //Produto
+  {
+      "nome": "Teste"
+  }
+}
+
+###
